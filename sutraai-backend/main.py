@@ -1,16 +1,20 @@
 from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
+from routes.contract import router as contract_router  # Import the router from contract.py
 
 app = FastAPI()
 
 # Allow frontend access
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # Update this with specific origins if needed for security
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Include the contract router
+app.include_router(contract_router, prefix="/contract")  # Optional prefix for namespacing
 
 @app.get("/")
 def read_root():

@@ -7,7 +7,8 @@ import './App.css';
 
 // Pages
 import Home from "./pages/index";
-// import Templates from "./pages/templates";
+import ContractBuilderPage from "./pages/ContractBuilderPage"
+import TemplatePage from "./pages/TemplatePage";
 // import Features from "./pages/features";
 // import Docs from "./pages/docs";
 // import FAQ from "./pages/help/faq";
@@ -25,7 +26,9 @@ const App = () => {
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* <Route path="/templates" element={<Templates />} />
+            <Route path="/buildcontract" element={<ContractBuilderPage />} />
+            <Route path="/templates" element={<TemplatePage />} />
+            {/* 
             <Route path="/features" element={<Features />} />
             <Route path="/docs" element={<Docs />} />
             <Route path="/help/faq" element={<FAQ />} />

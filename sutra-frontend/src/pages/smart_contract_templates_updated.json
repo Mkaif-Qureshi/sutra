@@ -1,0 +1,739 @@
+[
+    {
+        "template_name": "ERC-20 Token",
+        "nodes": [
+            {
+                "id": "1",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 50
+                },
+                "data": {
+                    "label": "constructor"
+                }
+            },
+            {
+                "id": "2",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 150
+                },
+                "data": {
+                    "label": "totalSupply"
+                }
+            },
+            {
+                "id": "3",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 250
+                },
+                "data": {
+                    "label": "balanceOf"
+                }
+            },
+            {
+                "id": "4",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 350
+                },
+                "data": {
+                    "label": "transfer"
+                }
+            },
+            {
+                "id": "5",
+                "type": "event",
+                "position": {
+                    "x": 320,
+                    "y": 450
+                },
+                "data": {
+                    "label": "Transfer Event"
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "1",
+                "target": "2",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "1",
+                "target": "3",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "4",
+                "target": "5",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            }
+        ]
+    },
+    {
+        "template_name": "ERC-721 NFT",
+        "nodes": [
+            {
+                "id": "1",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 50
+                },
+                "data": {
+                    "label": "constructor"
+                }
+            },
+            {
+                "id": "2",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 150
+                },
+                "data": {
+                    "label": "mint"
+                }
+            },
+            {
+                "id": "3",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 250
+                },
+                "data": {
+                    "label": "ownerOf"
+                }
+            },
+            {
+                "id": "4",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 350
+                },
+                "data": {
+                    "label": "transferFrom"
+                }
+            },
+            {
+                "id": "5",
+                "type": "event",
+                "position": {
+                    "x": 320,
+                    "y": 450
+                },
+                "data": {
+                    "label": "Transfer Event"
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "1",
+                "target": "2",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "1",
+                "target": "3",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "4",
+                "target": "5",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            }
+        ]
+    },
+    {
+        "template_name": "Crowdfunding",
+        "nodes": [
+            {
+                "id": "1",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 50
+                },
+                "data": {
+                    "label": "constructor"
+                }
+            },
+            {
+                "id": "2",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 150
+                },
+                "data": {
+                    "label": "contribute"
+                }
+            },
+            {
+                "id": "3",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 250
+                },
+                "data": {
+                    "label": "withdraw"
+                }
+            },
+            {
+                "id": "4",
+                "type": "event",
+                "position": {
+                    "x": 320,
+                    "y": 350
+                },
+                "data": {
+                    "label": "Contribution Event"
+                }
+            },
+            {
+                "id": "5",
+                "type": "event",
+                "position": {
+                    "x": 320,
+                    "y": 450
+                },
+                "data": {
+                    "label": "Goal Reached Event"
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "1",
+                "target": "2",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "2",
+                "target": "3",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "3",
+                "target": "4",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "2",
+                "target": "5",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            }
+        ]
+    },
+    {
+        "template_name": "DAO Governance",
+        "nodes": [
+            {
+                "id": "1",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 50
+                },
+                "data": {
+                    "label": "constructor"
+                }
+            },
+            {
+                "id": "2",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 150
+                },
+                "data": {
+                    "label": "createProposal"
+                }
+            },
+            {
+                "id": "3",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 250
+                },
+                "data": {
+                    "label": "vote"
+                }
+            },
+            {
+                "id": "4",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 350
+                },
+                "data": {
+                    "label": "executeProposal"
+                }
+            },
+            {
+                "id": "5",
+                "type": "event",
+                "position": {
+                    "x": 320,
+                    "y": 450
+                },
+                "data": {
+                    "label": "Proposal Created Event"
+                }
+            },
+            {
+                "id": "6",
+                "type": "event",
+                "position": {
+                    "x": 320,
+                    "y": 550
+                },
+                "data": {
+                    "label": "Vote Cast Event"
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "1",
+                "target": "2",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "2",
+                "target": "3",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "3",
+                "target": "4",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "2",
+                "target": "5",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "3",
+                "target": "6",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            }
+        ]
+    },
+    {
+        "template_name": "Multi-Signature Wallet",
+        "nodes": [
+            {
+                "id": "1",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 50
+                },
+                "data": {
+                    "label": "constructor"
+                }
+            },
+            {
+                "id": "2",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 150
+                },
+                "data": {
+                    "label": "submitTransaction"
+                }
+            },
+            {
+                "id": "3",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 250
+                },
+                "data": {
+                    "label": "confirmTransaction"
+                }
+            },
+            {
+                "id": "4",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 350
+                },
+                "data": {
+                    "label": "revokeConfirmation"
+                }
+            },
+            {
+                "id": "5",
+                "type": "event",
+                "position": {
+                    "x": 320,
+                    "y": 450
+                },
+                "data": {
+                    "label": "Transaction Submitted Event"
+                }
+            },
+            {
+                "id": "6",
+                "type": "event",
+                "position": {
+                    "x": 320,
+                    "y": 550
+                },
+                "data": {
+                    "label": "Transaction Executed Event"
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "1",
+                "target": "2",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "2",
+                "target": "3",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "3",
+                "target": "4",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "2",
+                "target": "5",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "4",
+                "target": "6",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            }
+        ]
+    },
+    {
+        "template_name": "Staking Contract",
+        "nodes": [
+            {
+                "id": "1",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 50
+                },
+                "data": {
+                    "label": "constructor"
+                }
+            },
+            {
+                "id": "2",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 150
+                },
+                "data": {
+                    "label": "stake"
+                }
+            },
+            {
+                "id": "3",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 250
+                },
+                "data": {
+                    "label": "unstake"
+                }
+            },
+            {
+                "id": "4",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 350
+                },
+                "data": {
+                    "label": "claimRewards"
+                }
+            },
+            {
+                "id": "5",
+                "type": "event",
+                "position": {
+                    "x": 320,
+                    "y": 450
+                },
+                "data": {
+                    "label": "Staked Event"
+                }
+            },
+            {
+                "id": "6",
+                "type": "event",
+                "position": {
+                    "x": 320,
+                    "y": 550
+                },
+                "data": {
+                    "label": "Unstaked Event"
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "1",
+                "target": "2",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "2",
+                "target": "3",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "3",
+                "target": "4",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "2",
+                "target": "5",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "3",
+                "target": "6",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            }
+        ]
+    },
+    {
+        "template_name": "Voting System",
+        "nodes": [
+            {
+                "id": "1",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 50
+                },
+                "data": {
+                    "label": "constructor"
+                }
+            },
+            {
+                "id": "2",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 150
+                },
+                "data": {
+                    "label": "createProposal"
+                }
+            },
+            {
+                "id": "3",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 250
+                },
+                "data": {
+                    "label": "vote"
+                }
+            },
+            {
+                "id": "4",
+                "type": "function",
+                "position": {
+                    "x": 320,
+                    "y": 350
+                },
+                "data": {
+                    "label": "endVoting"
+                }
+            },
+            {
+                "id": "5",
+                "type": "event",
+                "position": {
+                    "x": 320,
+                    "y": 450
+                },
+                "data": {
+                    "label": "Proposal Created Event"
+                }
+            },
+            {
+                "id": "6",
+                "type": "event",
+                "position": {
+                    "x": 320,
+                    "y": 550
+                },
+                "data": {
+                    "label": "Vote Cast Event"
+                }
+            },
+            {
+                "id": "7",
+                "type": "event",
+                "position": {
+                    "x": 320,
+                    "y": 650
+                },
+                "data": {
+                    "label": "Voting Ended Event"
+                }
+            }
+        ],
+        "edges": [
+            {
+                "source": "1",
+                "target": "2",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "2",
+                "target": "3",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "3",
+                "target": "4",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "2",
+                "target": "5",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "3",
+                "target": "6",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            },
+            {
+                "source": "4",
+                "target": "7",
+                "type": "smoothstep",
+                "style": {
+                    "stroke": "#555"
+                }
+            }
+        ]
+    }
+]

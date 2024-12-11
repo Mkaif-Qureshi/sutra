@@ -21,34 +21,19 @@ const Header = () => {
                     >
                         HOME
                     </a>
-                    <div className="relative group">
-                        <a
-                            href="#"
-                            className="text-gray-700 hover:text-gray-900 font-medium transition"
-                        >
-                            TEMPLATES
-                        </a>
-                        <div className="absolute mt-2 bg-white shadow-lg rounded-lg py-2 w-48 opacity-0 group-hover:opacity-100 transform scale-95 group-hover:scale-100 transition-all duration-200">
-                            <a
-                                href="/templates/template1"
-                                className="block px-4 py-2 hover:bg-gray-200"
-                            >
-                                Template 1
-                            </a>
-                            <a
-                                href="/templates/template2"
-                                className="block px-4 py-2 hover:bg-gray-200"
-                            >
-                                Template 2
-                            </a>
-                            <a
-                                href="/templates/template3"
-                                className="block px-4 py-2 hover:bg-gray-200"
-                            >
-                                Template 3
-                            </a>
-                        </div>
-                    </div>
+                    <a
+                        href="/buildcontract"
+                        className="text-gray-700 hover:text-gray-900 font-medium transition"
+                    >
+                        BUILD
+                    </a>
+                    <a
+                        href="/template"
+                        className="text-gray-700 hover:text-gray-900 font-medium transition"
+                    >
+                        TEMPLATES
+                    </a>
+
                     <a
                         href="#features"
                         className="text-gray-700 hover:text-gray-900 font-medium transition"

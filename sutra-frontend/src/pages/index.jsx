@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className="bg-gray-100 text-gray-900">
             {/* Hero Section */}
-            <section className="relative bg-gradient-to-r from-gray-400 to-gray-600 py-20 border-b border-gray-400">
+            <section className=" bg-gradient-to-r from-gray-400 to-gray-600 py-20 border-b border-gray-400">
                 <div className="container mx-auto px-4 text-center">
                     <h1 className="text-5xl font-extrabold text-white tracking-wide mb-6">
                         Design. Deploy. Dominate.
