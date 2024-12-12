@@ -1,6 +1,7 @@
 [
     {
         "template_name": "ERC-20 Token",
+        "image_src": "https://lh4.googleusercontent.com/lnYs68s63BY7lWiPVoTqnlyYUkRtHkluMvdxeHAd54r0O0N7pXdMJ2nOOg4Ncwp05KXPiM3yItYZP7YcC39LvJHqdOVWhPAt2HkaqrQ6C2i-dR0RsfITaOvOoXzwA6PlLVQUT5J_",
         "nodes": [
             {
                 "id": "1",
@@ -87,6 +88,7 @@
     },
     {
         "template_name": "ERC-721 NFT",
+        "image_src": "/erc721.jpeg",
         "nodes": [
             {
                 "id": "1",
@@ -173,6 +175,7 @@
     },
     {
         "template_name": "Crowdfunding",
+        "image_src": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/06/wordpress-crowdfunding.png",
         "nodes": [
             {
                 "id": "1",
@@ -267,6 +270,7 @@
     },
     {
         "template_name": "DAO Governance",
+        "image_src": "https://pixelplex.io/wp-content/uploads/2023/05/dao-governance-main-1600.jpg",
         "nodes": [
             {
                 "id": "1",
@@ -380,6 +384,7 @@
     },
     {
         "template_name": "Multi-Signature Wallet",
+        "image_src": "https://images.ctfassets.net/0idwgenf7ije/3RHqqPh6R4HvOMQ0ZvZ9Iy/e2a2ed57d32cdc7a99de39d7fd1029a2/What_is_a_multi_sig_wallet?fm=webp",
         "nodes": [
             {
                 "id": "1",
@@ -493,6 +498,7 @@
     },
     {
         "template_name": "Staking Contract",
+        "image_src": "https://media.calibraint.com/calibraint-wordpress/wp-content/uploads/2022/12/29120103/Smart-contract-staking-Calibraint-min.png",
         "nodes": [
             {
                 "id": "1",
@@ -606,6 +612,7 @@
     },
     {
         "template_name": "Voting System",
+        "image_src": "https://pixelplex.io/wp-content/uploads/2021/02/blockchain-voting-main-1600.jpg",
         "nodes": [
             {
                 "id": "1",

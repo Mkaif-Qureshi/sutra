@@ -1,0 +1,1231 @@
+{
+  "Websites": [
+    {
+      "name": "Consensys Academy",
+      "url": "https://courses.consensys.net/collections"
+    },
+    {
+      "name": "Ethereum.org",
+      "url": "https://ethereum.org/en/developers/tutorials/"
+    },
+    {
+      "name": "Questbook",
+      "url": "https://openquest.xyz/"
+    },
+    {
+      "name": "Buildspace",
+      "url": "https://buildspace.so"
+    },
+    {
+      "name": "Web3Learn",
+      "url": "https://web3learn.io/"
+    },
+    {
+      "name": "The Blockchain School",
+      "url": "https://theblockchainschool.io"
+    },
+    {
+      "name": "Blockchain at Berkeley",
+      "url": "https://blockchain.berkeley.edu/"
+    },
+    {
+      "name": "ProtoSchool",
+      "url": "https://proto.school/tutorials"
+    },
+    {
+      "name": "Dacade",
+      "url": "https://dacade.org"
+    },
+    {
+      "name": "Figment",
+      "url": "https://learn.figment.io"
+    },
+    {
+      "name": "Finematics",
+      "url": "https://finematics.com"
+    },
+    {
+      "name": "Near University",
+      "url": "https://www.near.university/learn/by-yourself"
+    },
+    {
+      "name": "Kerala Blockchain Academy",
+      "url": "https://kba.ai"
+    },
+    {
+      "name": "DApp University",
+      "url": "https://www.dappuniversity.com/"
+    },
+    {
+      "name": "Ethereum Blockchain Dev",
+      "url": "https://ethereum-blockchain-developer.com/"
+    },
+    {
+      "name": "Blockchain Hub",
+      "url": "https://blockchainhub.net"
+    },
+    {
+      "name": "EthereumDev",
+      "url": "https://ethereumdev.io/"
+    },
+    {
+      "name": "UseWeb3",
+      "url": "https://useweb3.xyz"
+    },
+    {
+      "name": "Blockchain Edu",
+      "url": "https://learn.blockchainedu.org"
+    },
+    {
+      "name": "Web3 University",
+      "url": "https://www.web3.university/"
+    },
+    {
+      "name": "Zastrin",
+      "url": "https://www.zastrin.com/"
+    },
+    {
+      "name": "Metaschool",
+      "url": "https://metaschool.so/"
+    },
+    {
+      "name": "LearnWeb3 DAO",
+      "url": "https://www.learnweb3.io"
+    },
+    {
+      "name": "Chainshot",
+      "url": "https://www.chainshot.com/"
+    },
+    {
+      "name": "Althash University",
+      "url": "https://www.althash.university/colleges-schools/blockchain-internship-youth-program-biyp"
+    },
+    {
+      "name": "We teach Blockchain",
+      "url": "https://weteachblockchain.org/courses"
+    },
+    {
+      "name": "Cadena",
+      "url": "https://cadena.dev"
+    },
+    {
+      "name": "Learn Web3",
+      "url": "https://learnweb3.io/"
+    },
+    {
+      "name": "Tacode",
+      "url": "https://tacode.dev"
+    },
+    {
+      "name": "NFTschool",
+      "url": "https://nftschool.dev"
+    },
+    {
+      "name": "StartonSolana",
+      "url": "https://www.startonsolana.com/"
+    },
+    {
+      "name": "Blockgeeks",
+      "url": "https://blockgeeks.com"
+    },
+    {
+      "name": "CryptoLectures",
+      "url": "https://cryptolectures.teachable.com/"
+    },
+    {
+      "name": "Snakecharmers",
+      "url": "https://snakecharmers.ethereum.org/"
+    },
+    {
+      "name": "Pointer",
+      "url": "https://www.pointer.gg/"
+    },
+    {
+      "name": "Soldev",
+      "url": "https://soldev.app/"
+    },
+    {
+      "name": "Codiesalert",
+      "url": "https://www.codiesalert.com/"
+    },
+    {
+      "name": "Soliditytips",
+      "url": "https://soliditytips.com/"
+    },
+    {
+      "name": "Cryptopedia",
+      "url": "https://www.gemini.com/cryptopedia"
+    },
+    {
+      "name": "Learn NEAR Club",
+      "url": "https://learnnear.club/"
+    },
+    {
+      "name": "Teach yourself Web3",
+      "url": "https://www.teachyourselfweb3.com"
+    },
+    {
+      "name": "Web3 Freecodecamp",
+      "url": "https://web3.freecodecamp.org/"
+    },
+    {
+      "name": "Cryptodappy",
+      "url": "https://www.cryptodappy.com/"
+    },
+    {
+      "name": "MetaMask Learn",
+      "url": "https://learn.metamask.io/"
+    },
+    {
+      "name": "Alchemy university",
+      "url": "https://university.alchemy.com/"
+    },
+    {
+      "name": "Buidlguidl",
+      "url": "https://buidlguidl.com/"
+    },
+    {
+      "name": "Celo Academy",
+      "url": "https://celo.academy/"
+    },
+    {
+      "name": "DApp World",
+      "url": "https://dapp-world.com/"
+    }
+  ],
+  "Gamified Tutorials": [
+    {
+      "name": "Cryptozombies",
+      "url": "https://cryptozombies.io"
+    },
+    {
+      "name": "Ethernaut",
+      "url": "https://ethernaut.openzeppelin.com/"
+    },
+    {
+      "name": "Damnvulnerable DeFi",
+      "url": "https://www.damnvulnerabledefi.xyz/"
+    },
+    {
+      "name": "Vyper.fun",
+      "url": "https://vyper.fun/lessons.html#"
+    },
+    {
+      "name": "Capture the Ether",
+      "url": "https://capturetheether.com/"
+    },
+    {
+      "name": "Space Doggos",
+      "url": "https://www.bitdegree.org/course/learn-solidity-space-doggos"
+    },
+    {
+      "name": "Crypto Hack",
+      "url": "https://cryptohack.org"
+    }
+  ],
+  "Youtube Channels": [
+    {
+      "name": "DApp University",
+      "url": "https://www.youtube.com/@DAppuniversity"
+    },
+    {
+      "name": "Eat the blocks",
+      "url": "https://www.youtube.com/@eattheblocks"
+    },
+    {
+      "name": "Ivan on Tech",
+      "url": "https://www.youtube.com/@ivanontech"
+    },
+    {
+      "name": "Nader Dabit",
+      "url": "https://www.youtube.com/@naderdabit"
+    },
+    {
+      "name": "Samarth Developer",
+      "url": "https://www.youtube.com/@samarthdeveloper6795"
+    },
+    {
+      "name": "Austin Griffith",
+      "url": "https://www.youtube.com/@austingriffith3550"
+    },
+    {
+      "name": "Merunas Grincalaitis",
+      "url": "https://www.youtube.com/@merunasg"
+    },
+    {
+      "name": "Will it Scale",
+      "url": "https://www.youtube.com/@willitscale"
+    },
+    {
+      "name": "Smart Contract Programmer",
+      "url": "https://www.youtube.com/@smartcontractprogrammer"
+    },
+    {
+      "name": "Alchemy",
+      "url": "https://www.youtube.com/@alchemyplatform"
+    },
+    {
+      "name": "Hashlips NFT",
+      "url": "https://www.youtube.com/@HashLipsNFT"
+    },
+    {
+      "name": "Patrick Collins",
+      "url": "https://www.youtube.com/@PatrickAlphaC"
+    },
+    {
+      "name": "ETHGlobal",
+      "url": "https://www.youtube.com/@ethglobal"
+    },
+    {
+      "name": "Finematics",
+      "url": "https://www.youtube.com/@finematics"
+    },
+    {
+      "name": "Moralis Web3",
+      "url": "https://www.youtube.com/@moralisweb3"
+    },
+    {
+      "name": "Practical Blockchain",
+      "url": "https://www.youtube.com/@practicalblockchain"
+    },
+    {
+      "name": "Blockholic",
+      "url": "https://youtube.com/c/Blockholic"
+    },
+    {
+      "name": "Blockchain at Berkeley",
+      "url": "https://www.youtube.com/@blockholic"
+    },
+    {
+      "name": "Vlad Wulf",
+      "url": "https://www.youtube.com/@vladwulf5207"
+    },
+    {
+      "name": "Ethereum Engineering Group",
+      "url": "https://youtube.com/@EthereumEngineeringGroup"
+    },
+    {
+      "name": "Web3 Club",
+      "url": "https://www.youtube.com/@web3club"
+    },
+    {
+      "name": "Center for Innovative Finance",
+      "url": "https://www.youtube.com/@centerforinnovativefinance3039"
+    },
+    {
+      "name": "Web3 Foundation",
+      "url": "https://www.youtube.com/@web3foundation"
+    },
+    {
+      "name": "Learn Web3DAO",
+      "url": "https://www.youtube.com/@learnweb3dao"
+    },
+    {
+      "name": "Block Explorer",
+      "url": "https://www.youtube.com/@blockexplorermedia"
+    },
+    {
+      "name": "CodeXpert",
+      "url": "https://www.youtube.com/@codexpert"
+    },
+    {
+      "name": "Web3 Learn",
+      "url": "https://youtube.com/channel/UCjl8iG0tFvwyLapBPluLfKw"
+    },
+    {
+      "name": "Edureka",
+      "url": "https://www.youtube.com/@edurekaIN"
+    },
+    {
+      "name": "Code Eater",
+      "url": "https://www.youtube.com/@CodeEater21"
+    },
+    {
+      "name": "Mobilefish.com",
+      "url": "https://www.youtube.com/@mobilefish"
+    },
+    {
+      "name": "Simplilearn",
+      "url": "https://www.youtube.com/@simplilearn"
+    },
+    {
+      "name": "Crypto white board",
+      "url": "https://www.youtube.com/@WhiteboardCrypto"
+    },
+    {
+      "name": "Aeternity Blockchain",
+      "url": "https://www.youtube.com/@aeternityblockchain"
+    },
+    {
+      "name": "Chainlink",
+      "url": "https://www.youtube.com/@chainlink"
+    },
+    {
+      "name": "Codiesalert",
+      "url": "https://www.youtube.com/@codiesalert4496"
+    },
+    {
+      "name": "Web3Academy",
+      "url": "https://youtube.com/@Web3Academy"
+    },
+    {
+      "name": "Cyfrin Audits",
+      "url": "https://www.youtube.com/@CyfrinAudits"
+    }
+  ],
+  "Free Online Courses": [
+    {
+      "title": "Solidity, Blockchain, and Smart Contract Course – Beginner to Expert Python Tutorial",
+      "url": "https://www.youtube.com/watch?v=M576WGiDBdQ"
+    },
+    {
+      "title": "Build and Deploy a Modern Web 3.0 Blockchain App - Solidity Smart Contracts Crypto",
+      "url": "https://www.youtube.com/watch?v=Wn_Kb3MR_cU"
+    },
+    {
+      "title": "Blockchain Development Powered By AI",
+      "url": "https://www.youtube.com/watch?v=umepbfKp5rI"
+    },
+    {
+      "title": "Learn Blockchain, Solidity and Full Stack Web3 Development with JavaScript",
+      "url": "https://youtu.be/gyMwXuJrbJQ"
+    },
+    {
+      "title": "Blockchain Theory 101",
+      "url": "https://www.udemy.com/share/101yjc2@PUdKbFpaTVMPcUBCO0hOfg==/"
+    },
+    {
+      "title": "Blockchain Technology",
+      "url": "https://www.edx.org/course/blockchain-technology"
+    },
+    {
+      "title": "Smart Contracts",
+      "url": "https://www.coursera.org/learn/smarter-contracts"
+    },
+    {
+      "title": "Blockchain and Deep Learning of AI",
+      "url": "https://www.udemy.com/course/blockchain-and-deep-learning-future-of-ai/"
+    },
+    {
+      "title": "Understanding Blockchain Technology",
+      "url": "https://www.udemy.com/course/understanding-blockchain-technology/"
+    },
+    {
+      "title": "Ethereum",
+      "url": "https://www.ludu.co/course/ethereum"
+    },
+    {
+      "title": "Blockchain Technology and Applications",
+      "url": "https://alison.com/course/diploma-in-blockchain-technology-and-applications"
+    },
+    {
+      "title": "Blockchain Technology Fundamentals",
+      "url": "https://witscad.com/course/blockchain-technology-fundamentals"
+    },
+    {
+      "title": "Enterprise Blockchains Fundamentals",
+      "url": "https://academy.101blockchains.com/courses/enterprise-blockchains-fundamentals"
+    },
+    {
+      "title": "Blockchain Demo - web-based demonstration of hash, block, distributed ledger, token, public/private key pairs and signing",
+      "url": "https://andersbrownworth.com/blockchain/"
+    }
+  ],
+  "GitHub Repositories": [
+    {
+      "name": "Full blockchain solidity course javascript",
+      "url": "https://github.com/smartcontractkit/full-blockchain-solidity-course-js"
+    },
+    {
+      "name": "Full blockchain solidity course python",
+      "url": "https://github.com/smartcontractkit/full-blockchain-solidity-course-py"
+    },
+    {
+      "name": "Learn Solidity, Blockchain Development, & Smart Contracts | Powered By AI ",
+      "url": "https://github.com/Cyfrin/foundry-full-course-f23"
+    },
+    {
+      "name": "Blockchain for software engineers",
+      "url": "https://github.com/benstew/blockchain-for-software-engineers"
+    },
+    {
+      "name": "Ethereum developer tools list",
+      "url": "https://github.com/ConsenSys/ethereum-developer-tools-list"
+    },
+    {
+      "name": "Awesome solidity",
+      "url": "https://github.com/bkrem/awesome-solidity"
+    },
+    {
+      "name": "Awesome ethereum security",
+      "url": "https://github.com/crytic/awesome-ethereum-security"
+    },
+    {
+      "name": "Awesome blockchain",
+      "url": "https://github.com/yjjnls/awesome-blockchain"
+    },
+    {
+      "name": "Blockchain learning path",
+      "url": "https://github.com/protofire/blockchain-learning-path"
+    },
+    {
+      "name": "Awesome solidity BlockchainLabs",
+      "url": "https://github.com/BlockchainLabsNZ/awesome-solidity"
+    },
+    {
+      "name": "Solidity 101",
+      "url": "https://github.com/l-henri/solidity-101"
+    },
+    {
+      "name": "Web3.0 Roadmap",
+      "url": "https://github.com/frankiefab100/Web3.0-Roadmap"
+    },
+    {
+      "name": "Web3 Terms",
+      "url": "https://github.com/Olanetsoft/web3terms"
+    },
+    {
+      "name": "Smart contract resources",
+      "url": "https://github.com/ErichDylus/Smart-Contract-Resources"
+    },
+    {
+      "name": "Learning solidity",
+      "url": "https://github.com/pbrudny/learning-solidity-2018"
+    },
+    {
+      "name": "Solidity notes",
+      "url": "https://github.com/0xpranay/solidity-notes"
+    },
+    {
+      "name": "Learn solidity with examples",
+      "url": "https://github.com/James-Sangalli/learn-solidity-with-examples"
+    },
+    {
+      "name": "Solidity patterns",
+      "url": "https://github.com/fravoll/solidity-patterns"
+    },
+    {
+      "name": "Solidity by examples",
+      "url": "https://github.com/raineorshine/solidity-by-example"
+    },
+    {
+      "name": "Blockchain development guide",
+      "url": "https://github.com/dcbuild3r/blockchain-development-guide"
+    },
+    {
+      "name": "Solidity Cheatsheet",
+      "url": "https://github.com/manojpramesh/solidity-cheatsheet"
+    },
+    {
+      "name": "Awesome list rpc nodes providers",
+      "url": "https://github.com/arddluma/awesome-list-rpc-nodes-providers"
+    },
+    {
+      "name": "Journey to become a blockchain engineer",
+      "url": "https://github.com/spo0ds/Journey-to-become-a-Blockchain-Engineer"
+    },
+    {
+      "name": "DeFi developer roadmap",
+      "url": "https://github.com/OffcierCia/DeFi-Developer-Road-Map"
+    },
+    {
+      "name": "Web2 to web3 resources",
+      "url": "https://github.com/decentology/web2-to-web3-resources"
+    },
+    {
+      "name": "Blockchain tutorial",
+      "url": "https://github.com/nosequeldeebee/blockchain-tutorial"
+    },
+    {
+      "name": "Awesome blockchains",
+      "url": "https://github.com/openblockchains/awesome-blockchains"
+    },
+    {
+      "name": "Awesome zero knowledge proofs",
+      "url": "https://github.com/matter-labs/awesome-zero-knowledge-proofs"
+    },
+    {
+      "name": "Awesome ZK",
+      "url": "https://github.com/ventali/awesome-zk"
+    },
+    {
+      "name": "Awesome ZkEVM",
+      "url": "https://github.com/LuozhuZhang/awesome-zkevm"
+    },
+    {
+      "name": "Awesome cryptoeconomics",
+      "url": "https://github.com/jpantunes/awesome-cryptoeconomics"
+    },
+    {
+      "name": "Building secure contracts",
+      "url": "https://github.com/crytic/building-secure-contracts"
+    },
+    {
+      "name": "Ultimate DeFi research base",
+      "url": "https://github.com/OffcierCia/ultimate-defi-research-base"
+    },
+    {
+      "name": "Solidity security",
+      "url": "https://github.com/Rari-Capital/solcurity"
+    },
+    {
+      "name": "Solidity security blog",
+      "url": "https://github.com/sigp/solidity-security-blog"
+    },
+    {
+      "name": "Web3 security library",
+      "url": "https://github.com/immunefi-team/Web3-Security-Library"
+    },
+    {
+      "name": "Solidity school",
+      "url": "https://github.com/Aniket-Engg/solidity-school"
+    },
+    {
+      "name": "Crypto List",
+      "url": "https://github.com/coinpride/CryptoList"
+    },
+    {
+      "name": "Solidity trivias",
+      "url": "https://github.com/ajsantander/trivias"
+    },
+    {
+      "name": "Practical cryptography for developers book",
+      "url": "https://github.com/nakov/practical-cryptography-for-developers-book"
+    },
+    {
+      "name": "Awesome openzeppelin",
+      "url": "https://github.com/OpenZeppelin/awesome-openzeppelin"
+    },
+    {
+      "name": "Blockchain Dark Forest selfguard handbook",
+      "url": "https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook"
+    },
+    {
+      "name": "The Crowdsourced Comprehensive Ethereum Reading List",
+      "url": "https://github.com/Scanate/EthList"
+    },
+    {
+      "name": "Eat the blocks",
+      "url": "https://github.com/jklepatch/eattheblocks"
+    },
+    {
+      "name": "Decentralized Applications",
+      "url": "https://github.com/DavidJohnstonCEO/DecentralizedApplications"
+    },
+    {
+      "name": "Decentralized Websites",
+      "url": "https://github.com/unstoppabledomains/decentralized-websites"
+    },
+    {
+      "name": "EVM Opcodes",
+      "url": "https://github.com/crytic/evm-opcodes"
+    },
+    {
+      "name": "Typechain",
+      "url": "https://github.com/dethcrypto/TypeChain"
+    },
+    {
+      "name": "Awesome blockchain rust",
+      "url": "https://github.com/rust-in-blockchain/awesome-blockchain-rust"
+    },
+    {
+      "name": "Awesome rust",
+      "url": "https://github.com/rust-unofficial/awesome-rust"
+    },
+    {
+      "name": "Awesome aeternity",
+      "url": "https://github.com/aeternity/awesome-aeternity"
+    },
+    {
+      "name": "Metaschool learning projects",
+      "url": "https://github.com/0xmetaschool/Learning-Projects"
+    },
+    {
+      "name": "Solana course",
+      "url": "https://github.com/Unboxed-Software/solana-course"
+    },
+    {
+      "name": "DeFiHackLabs",
+      "url": "https://github.com/SunWeb3Sec/DeFiHackLabs"
+    },
+    {
+      "name": "DeFiVulnLabs",
+      "url": "https://github.com/SunWeb3Sec/DeFiVulnLabs"
+    }
+  ],
+  "Tutorial Docs": [
+    {
+      "name": "Blockchain Development Tutorial",
+      "url": "https://cryptodevhub.io/wiki/blockchain-development-tutorial",
+      "description": "Getting Started with Blockchain Development by CryptoDev Hub"
+    },
+    {
+      "name": "Advanced Smart Contracts",
+      "url": "https://georgebrowncollege-toronto.github.io/Advanced-Smart-Contracts/index.html",
+      "description": "Advanced Smart Contracts by George Brown College"
+    },
+    {
+      "name": "Getting started with Blockchain",
+      "url": "https://kauri.io/#collections/Getting%20Started/blockchain-explained/",
+      "description": "Getting started with Blockchain by Kauri"
+    },
+    {
+      "name": "Public Good Blockchain Development Guide",
+      "url": "https://www.devpill.me/docs",
+      "description": "Blockchain Development Guide by Devpill"
+    },
+    {
+      "name": "Ethereum Blockchain Development",
+      "url": "https://docs.microsoft.com/en-us/learn/paths/ethereum-blockchain-development",
+      "description": "Get started with blockchain development by Microsoft"
+    },
+    {
+      "name": "Chainstack Web3 Decoded",
+      "url": "https://docs.chainstack.com/docs/web3-decoded-introduction",
+      "description": "Diving into Web3 development with Chaintack"
+    },
+    {
+      "name": "Hello World Smart Contracts",
+      "url": "https://docs.alchemy.com/alchemy/tutorials/hello-world-smart-contract",
+      "description": "Smart Contract Tutorial by Alchemy"
+    },
+    {
+      "name": "Learn Solidity in Y Minutes",
+      "url": "https://learnxinyminutes.com/docs/solidity",
+      "description": "Solidity Tutorial by Learn-x-in-y-minutes"
+    },
+    {
+      "name": "Solidity Docs",
+      "url": "https://solidity.readthedocs.io",
+      "description": "Solidity Tutorial"
+    },
+    {
+      "name": "OpenZeppelin Docs",
+      "url": "https://ethernaut.openzeppelin.com/",
+      "description": "OpenZeppelin Tutorials by Ethernaut"
+    },
+    {
+      "name": "Polygon Docs",
+      "url": "https://academy.polygon.technology/module-1-getting-started/join-the-polygon-academy",
+      "description": "Getting started with Polygon by Polygon Academy"
+    },
+    {
+      "name": "Ethereum Docs",
+      "url": "https://studio.ethereum.org/",
+      "description": "Ethereum Tutorial"
+    },
+    {
+      "name": "Decentology Docs",
+      "url": "https://docs.decentology.com/",
+      "description": "Ethspring by Decentology"
+    },
+    {
+      "name": "Solana Docs",
+      "url": "https://docs.solana.com/",
+      "description": "Solana Documentation"
+    },
+    {
+      "name": "NEAR Docs",
+      "url": "https://docs.near.org/docs/tutorials/overview",
+      "description": "NEAR Documentation"
+    },
+    {
+      "name": "Celo Docs",
+      "url": "https://docs.celo.org/",
+      "description": "Celo Documentation"
+    },
+    {
+      "name": "Avalanche Docs",
+      "url": "https://docs.avax.network/build/tutorials",
+      "description": "Avalanche Documentation"
+    },
+    {
+      "name": "Flow Docs",
+      "url": "https://developers.flow.com/",
+      "description": "Flow Documentation"
+    }
+  ],
+  "Development Tools": [
+    {
+      "name": "Remix IDE",
+      "url": "https://remix.ethereum.org",
+      "description": "An online Integrated Development Environment used to write, compile, debug and deploy solidity code for smart contracts"
+    },
+    {
+      "name": "EthFiddle",
+      "url": "https://ethfiddle.com/",
+      "description": "A solidity browser-based development tool"
+    },
+    {
+      "name": "Solidity",
+      "url": "https://docs.soliditylang.org",
+      "description": "An object-oriented, high-level language for implementing smart contracts on Ethereum Virtual Machine"
+    },
+    {
+      "name": "Metamask",
+      "url": "https://docs.metamask.io/guide",
+      "description": "A wallet extension for accessing and injecting the Ethereum web3 API"
+    },
+    {
+      "name": "Truffle Suite",
+      "url": "https://trufflesuite.com/doc",
+      "description": "Development environment, testing framework and asset pipeline for blockchains using the EVM"
+    },
+    {
+      "name": "Web3.js",
+      "url": "https://web3js.readthedocs.io",
+      "description": "A collection of libraries that allow you to interact with a local or remote ethereum node using HTTP, IPC or WebSocket"
+    },
+    {
+      "name": "Hardhat",
+      "url": "https://hardhat.org/getting-started/",
+      "description": "An Ethereum development environment that helps developers manage and automate the recurring tasks inherent to building smart contracts and DApps"
+    },
+    {
+      "name": "Ethers.js",
+      "url": "https://docs.ethers.io",
+      "description": "A compact library for interacting with the Ethereum Blockchain and its ecosystem"
+    },
+    {
+      "name": "Vyper",
+      "url": "https://vyper.readthedocs.io/en/latest/vyper-by-example.html",
+      "description": "A contract-oriented, pythonic programming language that targets the Ethereum Virtual Machine (EVM)"
+    },
+    {
+      "name": "Web3.py",
+      "url": "https://web3py.readthedocs.io",
+      "description": "A Python library for interacting with Ethereum, inspired by web3.js"
+    },
+    {
+      "name": "Go Ethereum",
+      "url": "https://geth.ethereum.org/docs/",
+      "description": "Golang implementation of Ethereum protocol"
+    },
+    {
+      "name": "Brownie",
+      "url": "https://eth-brownie.readthedocs.io",
+      "description": "A Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine"
+    },
+    {
+      "name": "OpenZeppelin",
+      "url": "https://docs.openzeppelin.com/learn/",
+      "description": "A library for secure smart contract development and community-vetted code"
+    },
+    {
+      "name": "EVM Codes",
+      "url": "https://www.evm.codes/",
+      "description": "An interactive reference to Ethereum Virtual Machine Opcodes"
+    },
+    {
+      "name": "EVM Opcodes",
+      "url": "https://www.ethervm.io/",
+      "description": "Ethereum Virtual Machine Opcodes"
+    },
+    {
+      "name": "Chainlist",
+      "url": "https://chainlist.org/",
+      "description": "A list of EVM networks with informations used to connect wallets and Web3 middleware providers to the appropriate Chain and Network ID"
+    },
+    {
+      "name": "Web3 Type Converter",
+      "url": "https://web3-type-converter.onbrn.com/",
+      "description": "Convert from a bytes32/hex into a string/number or vice-versa"
+    },
+    {
+      "name": "Foundry",
+      "url": "https://getfoundry.sh/",
+      "description": "A blazing fast, portable and modular toolkit for Ethereum application development written in Rust"
+    }
+  ],
+  "Node Providers": [
+    {
+      "name": "NodeReal",
+      "url": "https://nodereal.io",
+      "description": "NodeReal is a blockchain infrastructure and services provider"
+    },
+    {
+      "name": "Infura",
+      "url": "https://infura.io/",
+      "description": "Infura provides infrastructure and tools for developers to build amazing Web 3.0 applications"
+    },
+    {
+      "name": "Alchemy",
+      "url": "https://www.alchemy.com",
+      "description": "Alchemy provides infrastructure service to build great blockchain applications"
+    },
+    {
+      "name": "Chainstack",
+      "url": "https://www.chainstack.com",
+      "description": "Chainstack is the leading suite of services connecting developers with Web3 infrastructure"
+    },
+    {
+      "name": "QuickNode",
+      "url": "https://www.quicknode.com",
+      "description": "A single platform for your production, staging, and testing environments"
+    },
+    {
+      "name": "Ankr",
+      "url": "https://www.ankr.com/protocol/",
+      "description": "The fastest and most reliable Web3 infrastructure provider"
+    },
+    {
+      "name": "GetBlock",
+      "url": "https://getblock.io/",
+      "description": "A flexible Blockchain RPC Provider that offers instant API access to over 50 multiple blockchains"
+    }
+  ],
+  "Project Starter": [
+    {
+      "name": "Create-web3-dapp",
+      "url": "https://github.com/alchemyplatform/create-web3-dapp"
+    },
+    {
+      "name": "Scaffold-Eth",
+      "url": "https://github.com/scaffold-eth/scaffold-eth"
+    },
+    {
+      "name": "Create-eth-app",
+      "url": "https://github.com/paulrberg/create-eth-app"
+    },
+    {
+      "name": "Web3-react",
+      "url": "https://github.com/NoahZinsmeister/web3-react"
+    },
+    {
+      "name": "Web3-ui",
+      "url": "https://github.com/Developer-DAO/web3-ui"
+    },
+    {
+      "name": "Create-web3-frontend",
+      "url": "https://github.com/Dhaiwat10/create-web3-frontend"
+    },
+    {
+      "name": "Wagmi.sh",
+      "url": "https://wagmi.sh/"
+    },
+    {
+      "name": "Nexth",
+      "url": "https://github.com/wslyvh/nexth"
+    },
+    {
+      "name": "create-near-app",
+      "url": "https://github.com/near/create-near-app"
+    },
+    {
+      "name": "Eth-hooks",
+      "url": "https://scaffold-eth.github.io/eth-hooks/"
+    },
+    {
+      "name": "Typescript Solidity Dev Starter Kit",
+      "url": "https://github.com/rhlsthrm/typescript-solidity-dev-starter-kit"
+    },
+    {
+      "name": "Dapp scaffold",
+      "url": "https://github.com/solana-labs/dapp-scaffold"
+    },
+    {
+      "name": "Ethereum Boilerplate",
+      "url": "https://github.com/ethereum-boilerplate/ethereum-boilerplate"
+    },
+    {
+      "name": "Solana dapp scaffold",
+      "url": "https://github.com/swaroopmaddu/solana-dapp-scaffold"
+    },
+    {
+      "name": "Polygon dapp starter kit",
+      "url": "https://github.com/Polygon-Academy/starter-kits"
+    },
+    {
+      "name": "Nextjs dapp starter ts",
+      "url": "https://github.com/G3root/nextjs-dapp-starter-ts"
+    },
+    {
+      "name": "Lens protocol frontend",
+      "url": "https://github.com/dabit3/lens-protocol-frontend"
+    },
+    {
+      "name": "Buildspace dao starter",
+      "url": "https://github.com/buildspace/buildspace-dao-starter"
+    },
+    {
+      "name": "Solidity hardhat boilerplate",
+      "url": "https://github.com/defi-wonderland/solidity-hardhat-boilerplate"
+    },
+    {
+      "name": "Solidity foundry boilerplate",
+      "url": "https://github.com/defi-wonderland/solidity-foundry-boilerplate"
+    },
+    {
+      "name": "Hardhat template",
+      "url": "https://github.com/paulrberg/hardhat-template"
+    },
+    {
+      "name": "Web3ui kit",
+      "url": "https://github.com/web3ui/web3uikit"
+    },
+    {
+      "name": "Lens API starter",
+      "url": "https://github.com/womenbuildweb3/lens-api-starter"
+    },
+    {
+      "name": "Solidity template",
+      "url": "https://github.com/mattstam/solidity-template"
+    },
+    {
+      "name": "template-web3-app",
+      "url": "https://github.com/turbo-eth/template-web3-app"
+    },
+    {
+      "name": "Boilr3",
+      "url": "https://github.com/Envoy-VC/boilr3"
+    },
+    {
+      "name": "Solidity hardhat typescript boilerplate",
+      "url": "https://github.com/emretepedev/solidity-hardhat-typescript-boilerplate"
+    }
+  ],
+  "Articles": [
+    {
+      "title": "Blockchain",
+      "url": "https://www.investopedia.com/terms/b/blockchain.asp"
+    },
+    {
+      "title": "What is Web3? The Decentralized Internet of the Future Explained",
+      "url": "https://www.freecodecamp.org/news/what-is-web3/"
+    },
+    {
+      "title": "The meaning of decentralization",
+      "url": "https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274"
+    },
+    {
+      "title": "Getting started as an ethereum web developer",
+      "url": "https://hackernoon.com/getting-started-as-an-ethereum-web-developer-9a2a4ab47baf"
+    },
+    {
+      "title": "The complete guide to full stack ethereum development",
+      "url": "https://freecodecamp.org/the-complete-guide-to-full-stack-ethereum-development/"
+    },
+    {
+      "title": "Learn blockchain development by playing games",
+      "url": "https://frankiefab.hashnode.dev/learn-blockchain-development-by-playing-games"
+    },
+    {
+      "title": "An introduction to bitcoin and cryptocurrency",
+      "url": "https://hackernoon.com/an-introduction-to-bitcoin-and-cryptocurrency-618c139d1d06"
+    },
+    {
+      "title": "Ethereum dapp crash course - make an erc20 token faucet frontend",
+      "url": "https://dev.to/richardmelko/ethereum-dapp-crash-course-make-an-erc20-token-faucet-frontend-2m43"
+    },
+    {
+      "title": "How to create an erc20 token and a solidity vendor contract",
+      "url": "https://dev.to/stermi/how-to-create-an-erc20-token-and-a-solidity-vendor-contract-to-sell-buy-your-own-token-4j1m"
+    },
+    {
+      "title": "Building on ethereum mainnet",
+      "url": "https://kndrck.co/posts/building-on-ethereum-mainnet-an-opinionated-guide/"
+    },
+    {
+      "title": "Creating, Deploying, and Minting your ERC1155 token on Celo",
+      "url": "https://celo.academy/t/creating-deploying-minting-your-erc1155-token-on-celo/75"
+    },
+    {
+      "title": "Ethereum dev speed run",
+      "url": "https://medium.com/@austin_48503/%EF%B8%8Fethereum-dev-speed-run-bd72bcba6a4c"
+    },
+    {
+      "title": "Ethereum for web-developers",
+      "url": "https://medium.com/@mvmurthy/ethereum-for-web-developers-890be23d1d0c"
+    },
+    {
+      "title": "How to deploy your first smart contract on ethereum with solidity and hardhat",
+      "url": "https://stermi.medium.com/how-to-deploy-your-first-smart-contract-on-ethereum-with-solidity-and-hardhat-22f21d31096e"
+    },
+    {
+      "title": "Create a solana dapp from scratch",
+      "url": "https://lorisleiva.com/create-a-solana-dapp-from-scratch"
+    },
+    {
+      "title": "Ethereum in depth - part1",
+      "url": "https://blog.openzeppelin.com/ethereum-in-depth-part-1-968981e6f833/"
+    },
+    {
+      "title": "How the bitcoin protocol actually works",
+      "url": "https://michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/"
+    },
+    {
+      "title": "How does Ethereum work anyway",
+      "url": "https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369"
+    },
+    {
+      "title": "Solidity tutorial",
+      "url": "https://blockonomi.com/solidity-tutorial/"
+    },
+    {
+      "title": "Solidity 101",
+      "url": "https://secureum.substack.com/p/solidity-101"
+    },
+    {
+      "title": "How to create an erc-20 token on polygon",
+      "url": "https://blog.chain.link/how-to-create-an-erc-20-token-on-polygon/"
+    },
+    {
+      "title": "How to get into ethereum crypto web3 as a developer",
+      "url": "https://dev.to/dabit3/how-to-get-into-ethereum-crypto-web3-as-a-developer-9l6"
+    },
+    {
+      "title": "Building scalable full stack apps on ethereum with polygon",
+      "url": "https://dev.to/edge-and-node/building-scalable-full-stack-apps-on-ethereum-with-polygon-2cfb"
+    },
+    {
+      "title": "How to make an nft and render on opensea marketplace",
+      "url": "https://www.freecodecamp.org/news/how-to-make-an-nft-and-render-on-opensea-marketplace/"
+    },
+    {
+      "title": "Build defi yield farming application with chainlink",
+      "url": "https://blog.chain.link/build-defi-yield-farming-application-with-chainlink/"
+    },
+    {
+      "title": "How to make Contract Calls using Hardhat",
+      "url": "https://celo.academy/t/how-to-create-and-test-contract-calls-with-celo-and-hardhat/42"
+    },
+    {
+      "title": "Smart Contract Unit Testing with Truffle",
+      "url": "https://celo.academy/t/unit-testing-with-truffle-and-celo/40"
+    },
+    {
+      "title": "Intro security hacking smart contracts ethereum",
+      "url": "https://www.notonlyowner.com/learn/intro-security-hacking-smart-contracts-ethereum"
+    },
+    {
+      "title": "How to build a blockchain in rust",
+      "url": "https://blog.logrocket.com/how-to-build-a-blockchain-in-rust/"
+    },
+    {
+      "title": "Web 3.0 and the evolution of the internet",
+      "url": "https://dev.to/frankiefab100/web-30-and-the-evolution-of-the-internet-56hk"
+    },
+    {
+      "title": "Nft deployment cost",
+      "url": "https://blog.alchemy.com/blog/nft-deployment-cost"
+    },
+    {
+      "title": "How to code your own cryptokitties style game on ethereum",
+      "url": "https://medium.com/loom-network/how-to-code-your-own-cryptokitties-style-game-on-ethereum-7c8ac86a4eb3"
+    },
+    {
+      "title": "How to create run your own dao",
+      "url": "https://medium.com/bitfwd/how-to-create-run-your-own-dao-5e3eadd96962"
+    },
+    {
+      "title": "The ultimate ENS and dApp tutorial",
+      "url": "https://www.toptal.com/ethereum/ethereum-name-service-dapp-tutorial"
+    },
+    {
+      "title": "How Can A Newbie Start Learning About Blockchain?",
+      "url": "https://www.blockchain-council.org/blockchain/how-can-a-newbie-start-learning-about-blockchain/"
+    },
+    {
+      "title": "Learn Blockchain Development By Playing Games",
+      "url": "https://frankiefab.hashnode.dev/learn-blockchain-development-by-playing-games"
+    },
+    {
+      "title": "Understanding Blockchain Explorers",
+      "url": "https://frankiefab.hashnode.dev/understanding-blockchain-explorers"
+    },
+    {
+      "title": "Introduction to Blockchain Wallet",
+      "url": "https://frankiefab.hashnode.dev/introduction-to-blockchain-wallet"
+    },
+    {
+      "title": "How To Setup Metamask Account and Add Custom Blockchain Networks",
+      "url": "https://frankiefab.hashnode.dev/how-to-setup-metamask-account-and-add-custom-blockchain-networks"
+    },
+    {
+      "title": "A Guide To Web3 Domain Naming Services",
+      "url": "https://frankiefab.hashnode.dev/a-guide-to-web3-domain-naming-services"
+    },
+    {
+      "title": "20 Web3 Developer Communities You Should Join In 2023",
+      "url": "https://frankiefab.hashnode.dev/20-web3-developer-communities-you-should-join-in-2023"
+    },
+    {
+      "title": "The Future of Science: What You Need to Know About Decentralized Science (DeSci)",
+      "url": "https://frankiefab.hashnode.dev/the-future-of-science-what-you-need-to-know-about-decentralized-science-desci"
+    }
+  ],
+  "Recommended Books": [
+    {
+      "title": "Bitcoin White Paper: A Peer-to-Peer Electronic Cash System - Satoshi Nakamoto",
+      "url": "https://bitcoin.org/bitcoin.pdf"
+    },
+    {
+      "title": "Ethereum Yellow Paper: A Secure Decentralized Generalised Transaction Ledger - Dr. Gavin Wood",
+      "url": "https://ethereum.github.io/yellowpaper/paper.pdf"
+    },
+    {
+      "title": "Mastering Ethereum: Building Smart Contracts and DApps - Andreas Antonopoulos & Dr. Gavin Wood",
+      "url": "https://github.com/ethereumbook/ethereumbook"
+    },
+    {
+      "title": "Mastering Ethereum: Implement Advanced Blockchain Applications - Merunas Grincalaitis",
+      "url": null
+    },
+    {
+      "title": "Mastering Bitcoin: Programming the Open Blockchain - Andreas M. Antonopoulos",
+      "url": "https://github.com/bitcoinbook/bitcoinbook"
+    },
+    {
+      "title": "The Infinite Machine: How an Army of Crypto-hackers Is Building the Next Internet with Ethereum - Camila Russo",
+      "url": null
+    },
+    {
+      "title": "Mastering Bitcoin: Unlocking Digital Cryptocurrencies - Andreas Antonopoulos",
+      "url": null
+    },
+    {
+      "title": "Programming Bitcoin: Learn How to Program Bitcoin from Scratch - Jimmy Song",
+      "url": null
+    },
+    {
+      "title": "Bank 4.0 - Brett King",
+      "url": null
+    },
+    {
+      "title": "Building Ethereum DApps: Decentralized Applications on the Ethereum Blockchain - Roberto Infante",
+      "url": null
+    },
+    {
+      "title": "Mastering the Lightning Network: A Second Layer Blockchain Protocol for Instant Bitcoin Payments - Andreas Antonopoulos, Olaoluwa Osuntokun & Rene Pickhardt",
+      "url": "https://github.com/lnbook/lnbook"
+    },
+    {
+      "title": "Seizing Opportunities in the Blockchain and Digital Currency Revolution: A Handbook for Enthusiasts - Chimezie Chuta",
+      "url": null
+    },
+    {
+      "title": "Ethereum Blockchain Developer Guide - Thomas Wiesner",
+      "url": null
+    },
+    {
+      "title": "Hands on Smart Contract Development with Solidity and Ethereum: From fundamentals to deployment - Randall Kanna & Dave Hoover",
+      "url": null
+    },
+    {
+      "title": "The Spatial Web: How Web 3.0 Will Connect Humans, Machines, and AI to Transform the World - Gabriel Rene",
+      "url": null
+    },
+    {
+      "title": "How to DeFi - Darren Lau et al",
+      "url": null
+    },
+    {
+      "title": "The Blockchain Developer: A practical guide - Elad Elrom",
+      "url": null
+    },
+    {
+      "title": "Token Economy : How the Web3 reinvents the internet - Shermin Voshmgir",
+      "url": "https://github.com/sherminvo/TokenEconomyBook/wiki"
+    }
+  ]
+}

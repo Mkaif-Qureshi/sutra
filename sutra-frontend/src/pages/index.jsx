@@ -11,10 +11,9 @@ const Home = () => {
                         Design. Deploy. Dominate.
                     </h1>
                     <p className="text-xl text-gray-200 leading-relaxed mb-8">
-                        Build smart contracts with precision and confidence using Sutra's cutting-edge AI tools.
-                        Tailored for professionals seeking unparalleled efficiency and security.
+                        Sutra (सूत्र) - [noun]: A new formula for conttract code generation, simplifies the creation of intelligent smart contracts with precision and clarity.
                     </p>
-                    <button className="px-8 py-3 bg-yellow-500 text-gray-900 text-lg font-semibold rounded-lg shadow hover:bg-yellow-600 transition transform hover:scale-105 hero-background">
+                    <button className="px-8 py-3 text-gray-900 text-lg font-semibold rounded-ss-lg rounded-ee-lg shadow  transition transform hover:scale-105 hero-background">
                         Get Started Today
                     </button>
                 </div>
@@ -79,31 +78,25 @@ const Home = () => {
                                 Trusted by developers and businesses alike, Sutra provides unparalleled speed, security,
                                 and scalability for creating decentralized applications.
                             </p>
-                            <button className="px-6 py-3 bg-blue-500 text-white font-medium rounded-lg shadow hover:bg-blue-600 transition">
+                            <button className="p-4 bg-gray-700 text-white font-medium  hover:bg-gray-800 transition">
                                 Learn More
                             </button>
                         </div>
                         <div className="bg-gray-200 h-64 w-full rounded-lg shadow-lg flex items-center justify-center">
-                            {/* Placeholder for Image or Animation */}
-                            <p className="text-gray-400">[Image or Animation Placeholder]</p>
+                            {/* Video element */}
+                            <video
+                                className="w-full h-auto rounded-lg"
+                                controls
+                                autoPlay
+                                muted
+                                loop
+                                poster="/path-to-placeholder-image.jpg"
+                            >
+                                <source src="/video.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
                         </div>
                     </div>
-                </div>
-            </section>
-
-            {/* Call to Action */}
-            <section className="bg-blue-500 py-16">
-                <div className="container mx-auto px-4 text-center">
-                    <h2 className="text-4xl font-bold text-white mb-6">
-                        Get Started in Minutes
-                    </h2>
-                    <p className="text-lg text-gray-200 mb-8">
-                        Ready to elevate your smart contract development?
-                        Join thousands of professionals using Sutra to streamline their workflow.
-                    </p>
-                    <button className="px-8 py-3 bg-yellow-500 text-gray-900 font-medium rounded-lg shadow hover:bg-yellow-600 transition">
-                        Try for Free
-                    </button>
                 </div>
             </section>
         </div>

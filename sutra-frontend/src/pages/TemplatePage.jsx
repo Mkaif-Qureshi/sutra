@@ -19,13 +19,13 @@ const TemplatePage = () => {
                     {templateData.map((template, index) => (
                         <div
                             key={index}
-                            className="bg-white shadow-lg rounded-lg overflow-hidden cursor-pointer hover:shadow-2xl transition-all duration-300"
+                            className="bg-white shadow-lg rounded-md overflow-hidden cursor-pointer hover:shadow-2xl transition-all duration-300"
                             onClick={() => handleCardClick(template.template_name)}
                         >
                             <div className="relative">
                                 {/* Add the image later when it's available */}
                                 <img
-                                    src={template.image_src || '/default-image.png'} // Placeholder image
+                                    src={template.image_src || '/blockchain.png'} // Placeholder image
                                     alt={template.template_name}
                                     className="w-full h-40 object-cover"
                                 />

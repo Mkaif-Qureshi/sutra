@@ -28,43 +28,31 @@ const Header = () => {
                         BUILD
                     </a>
                     <a
-                        href="/template"
+                        href="/templates"
                         className="text-gray-700 hover:text-gray-900 font-medium transition"
                     >
                         TEMPLATES
                     </a>
 
-                    <a
-                        href="#features"
-                        className="text-gray-700 hover:text-gray-900 font-medium transition"
-                    >
-                        FEATURES
-                    </a>
-                    <a
-                        href="/docs"
-                        className="text-gray-700 hover:text-gray-900 font-medium transition"
-                    >
-                        DOCS
-                    </a>
                     <div className="relative group">
                         <a
                             href="#"
                             className="text-gray-700 hover:text-gray-900 font-medium transition"
                         >
-                            HELP
+                            LEARN
                         </a>
                         <div className="absolute mt-2 bg-white shadow-lg rounded-lg py-2 w-48 opacity-0 group-hover:opacity-100 transform scale-95 group-hover:scale-100 transition-all duration-200">
                             <a
-                                href="/help/tutorials"
+                                href="/help/resources"
                                 className="block px-4 py-2 hover:bg-gray-200"
                             >
-                                Tutorials
+                                Resources
                             </a>
                             <a
-                                href="/help/faq"
+                                href="/help/learnwithai"
                                 className="block px-4 py-2 hover:bg-gray-200"
                             >
-                                FAQs
+                                Learn With AI
                             </a>
                             <a
                                 href="/help/contact"
@@ -78,7 +66,7 @@ const Header = () => {
 
                 {/* Actions */}
                 <div className="flex items-center space-x-4">
-                    <button className="px-4 py-2 bg-gray-700 text-white font-medium rounded-lg hover:bg-gray-800 transition">
+                    <button className="px-4 py-2 bg-gray-700 text-white font-medium  hover:bg-gray-800 transition">
                         Deploy
                     </button>
                     <button className="text-gray-700 hover:text-gray-900 font-medium transition">

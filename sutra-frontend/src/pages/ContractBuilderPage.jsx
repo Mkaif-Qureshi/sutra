@@ -299,19 +299,19 @@ const ContractBuilderPage = () => {
                     <div className="w-1/4 bg-white shadow-md p-4 overflow-y-auto">
                         <h2 className="text-lg font-semibold text-gray-800 mb-4">Component Palette</h2>
                         <div className="mb-4 flex justify-start flex-wrap gap-2">
-                            <button onClick={onSave} className="bg-blue-500 text-white px-2 py-1 rounded text-sm">Save</button>
-                            <button onClick={onRestore} className="bg-green-500 text-white px-2 py-1 rounded text-sm">Restore</button>
-                            <button onClick={onClear} className="bg-red-500 text-white px-2 py-1 rounded text-sm">Clear</button>
-                            <button onClick={handleDownloadTemplate} className="bg-purple-500 text-white px-2 py-1 rounded text-sm flex items-center">
+                            <button onClick={onSave} className="bg-blue-500 text-white px-2 py-1  text-sm">Save</button>
+                            <button onClick={onRestore} className="bg-green-500 text-white px-2 py-1  text-sm">Restore</button>
+                            <button onClick={onClear} className="bg-red-500 text-white px-2 py-1  text-sm">Clear</button>
+                            <button onClick={handleDownloadTemplate} className="bg-purple-500 text-white px-2 py-1  text-sm flex items-center">
                                 <Download size={16} className="mr-1" /> Download
                             </button>
-                            <label className="bg-orange-500 text-white px-2 py-1 rounded text-sm flex items-center cursor-pointer">
+                            <label className="bg-orange-500 text-white px-2 py-1  text-sm flex items-center cursor-pointer">
                                 <Upload size={16} className="mr-1" /> Upload
                                 <input type="file" onChange={handleUploadTemplate} className="hidden" accept=".json" />
                             </label>
                             <button
                                 onClick={() => setShowModal(true)}
-                                className="bg-blue-500 text-white px-2 py-1 rounded text-sm"
+                                className="bg-blue-500 text-white px-2 py-1  text-sm"
                             >
                                 Generate
                             </button>
@@ -321,7 +321,7 @@ const ContractBuilderPage = () => {
                                 <h2 className="text-lg font-semibold text-gray-800 mb-4">Generated Code</h2>
                                 <button
                                     onClick={openCodeModal}
-                                    className="bg-gray-200 text-gray-700 p-2 rounded"
+                                    className="bg-gray-200 text-gray-700 p-2 "
                                     aria-label="View generated code"
                                 >
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -360,7 +360,7 @@ const ContractBuilderPage = () => {
                             <h3 className="font-medium text-gray-700 mb-2">Templates</h3>
                             <select
                                 onChange={(e) => handleTemplateSelect(templates.find(t => t.template_name === e.target.value))}
-                                className="w-full p-2 border border-gray-300 rounded"
+                                className="w-full p-2 border border-gray-300 "
                             >
                                 <option value="">Select a template</option>
                                 {templates.map((template, index) => (
@@ -374,7 +374,7 @@ const ContractBuilderPage = () => {
                         <div className="mb-4">
                             <h3 className="font-medium text-gray-700 mb-2">Generated Solidity Code</h3>
                             {generatedCode ? (
-                                <div className="bg-gray-100 p-2 rounded overflow-auto max-h-64">
+                                <div className="bg-gray-100 p-2  overflow-auto max-h-64">
                                     <pre className="text-xs">{generatedCode}</pre>
                                 </div>
                             ) : (
@@ -388,10 +388,10 @@ const ContractBuilderPage = () => {
                     {/* Modal for entering the purpose */}
                     {showModal && (
                         <div className="fixed inset-0 flex justify-center items-center bg-gray-500 bg-opacity-50 z-50">
-                            <div className="bg-white p-6 rounded-md w-1/3">
+                            <div className="bg-white p-6  w-1/3">
                                 <h3 className="text-xl font-semibold mb-4">Enter Code Purpose</h3>
                                 <textarea
-                                    className="w-full p-2 border border-gray-300 rounded mb-4"
+                                    className="w-full p-2 border border-gray-300  mb-4"
                                     placeholder="Enter the purpose of the code..."
                                     value={purpose}
                                     onChange={handlePurposeChange}
@@ -399,7 +399,7 @@ const ContractBuilderPage = () => {
                                 <div className="flex justify-end">
                                     <button
                                         onClick={() => setShowModal(false)}
-                                        className="bg-gray-300 text-black px-4 py-2 rounded mr-2"
+                                        className="bg-gray-300 text-black px-4 py-2 mr-2"
                                     >
                                         Cancel
                                     </button>
@@ -408,7 +408,7 @@ const ContractBuilderPage = () => {
                                             onGenerateCode();
                                             setShowModal(false); // Close modal after generating code
                                         }}
-                                        className="bg-blue-500 text-white px-4 py-2 rounded"
+                                        className="bg-blue-500 text-white px-4 py-2"
                                     >
                                         Generate
                                     </button>
@@ -420,7 +420,7 @@ const ContractBuilderPage = () => {
                     {/* Code Modal */}
                     {showCodeModal && (
                         <div className="fixed inset-0 flex justify-center items-center bg-gray-500 bg-opacity-50 z-50">
-                            <div className="bg-white p-6 rounded-md w-3/4 max-h-[80vh] overflow-auto">
+                            <div className="bg-white p-6 w-3/4 max-h-[80vh] overflow-auto">
                                 <h3 className="text-xl font-semibold mb-4">Response: </h3>
 
                                 <ReactMarkdown>
@@ -431,7 +431,7 @@ const ContractBuilderPage = () => {
                                 <div className="flex justify-end mt-4">
                                     <button
                                         onClick={() => setShowCodeModal(false)}
-                                        className="bg-blue-500 text-white px-4 py-2 rounded"
+                                        className="bg-blue-500 text-white px-4 py-2 "
                                     >
                                         Close
                                     </button>

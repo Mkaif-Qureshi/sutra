@@ -9,6 +9,8 @@ import './App.css';
 import Home from "./pages/index";
 import ContractBuilderPage from "./pages/ContractBuilderPage"
 import TemplatePage from "./pages/TemplatePage";
+import ResourcesPage from "./pages/ResourcesPage"
+import LearnWithAIPage from "./pages/LearnWithAIpage"
 // import Features from "./pages/features";
 // import Docs from "./pages/docs";
 // import FAQ from "./pages/help/faq";
@@ -28,6 +30,9 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/buildcontract" element={<ContractBuilderPage />} />
             <Route path="/templates" element={<TemplatePage />} />
+            <Route path="/help/resources" element={<ResourcesPage />} />
+            <Route path="/help/learnwithai" element={<LearnWithAIPage />} />
+
             {/* 
             <Route path="/features" element={<Features />} />
             <Route path="/docs" element={<Docs />} />
