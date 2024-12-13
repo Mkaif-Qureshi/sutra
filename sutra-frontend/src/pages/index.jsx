@@ -11,7 +11,7 @@ const Home = () => {
                         Design. Deploy. Dominate.
                     </h1>
                     <p className="text-xl text-gray-200 leading-relaxed mb-8">
-                        Sutra (सूत्र) - [noun]: A new formula for conttract code generation, simplifies the creation of intelligent smart contracts with precision and clarity.
+                        Sutra (सूत्र) - [noun]: A new formula for contract code generation, simplifies the creation of intelligent smart contracts with precision and clarity.
                     </p>
                     <button className="px-8 py-3 text-gray-900 text-lg font-semibold rounded-ss-lg rounded-ee-lg shadow  transition transform hover:scale-105 hero-background">
                         Get Started Today

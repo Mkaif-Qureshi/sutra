@@ -6,7 +6,7 @@ import json
 from pydantic import BaseModel
 
 # Configure the Gemini API key
-genai.configure(api_key="AIzaSyAU7QAb4Va2vTncri-DF0WN5O1iiMfLICY")  # Replace with your actual API key
+genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))  # Replace with your actual API key
 
 # Configure the Groq API key
 groq_client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
@@ -48,11 +48,6 @@ async def generate_resources(request: TopicRequest):
         return {"topic": request.topic, "resources": response.text}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error generating resources: {str(e)}")
-
-# Define the route for generating a mind map
-from fastapi import HTTPException
-from typing import Dict
-import json
 
 @router.post("/mindmap")
 async def generate_mindmap_markdown(request: TopicRequest):
