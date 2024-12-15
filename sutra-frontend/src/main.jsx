@@ -6,9 +6,9 @@ import { WalletProvider } from './WalletContext';
 
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <WalletProvider>
-      <App />
-    </WalletProvider>
-  </StrictMode>
+  // <StrictMode>
+  <WalletProvider>
+    <App />
+  </WalletProvider>
+  // </StrictMode>
 );
