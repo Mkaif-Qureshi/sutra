@@ -14,7 +14,7 @@ const Home = () => {
                         Sutra (सूत्र) - [noun]: A new formula for contract code generation, simplifies the creation of intelligent smart contracts with precision and clarity.
                     </p>
                     <button className="px-8 py-3 text-gray-900 text-lg font-semibold rounded-ss-lg rounded-ee-lg shadow  transition transform hover:scale-105 hero-background">
-                        Get Started Today
+                        Start Building Today
                     </button>
                 </div>
             </section>
@@ -86,7 +86,6 @@ const Home = () => {
                             {/* Video element */}
                             <video
                                 className="w-full h-auto rounded-lg"
-                                controls
                                 autoPlay
                                 muted
                                 loop

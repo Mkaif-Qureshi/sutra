@@ -2,6 +2,7 @@ from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from routes.contract import router as contract_router  # Import the router from contract.py
 from routes.learnwithai import router as learnwithai_router
+from routes.compile import router as compile
 
 app = FastAPI()
 
@@ -17,6 +18,7 @@ app.add_middleware(
 # Include the contract router
 app.include_router(contract_router, prefix="/contract")  # Optional prefix for namespacing
 app.include_router(learnwithai_router, prefix="/learn")  # Optional prefix for namespacing
+app.include_router(compile, prefix="/sol")  # Optional prefix for namespacing
 
 @app.get("/")
 def read_root():

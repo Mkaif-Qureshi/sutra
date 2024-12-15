@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import axios from 'axios';
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
@@ -20,6 +20,10 @@ import 'prismjs/components/prism-solidity.min.js'; // Import Solidity syntax hig
 import ReactMarkdown from 'react-markdown';
 import templates from './smart_contract_templates_updated.json';
 import { Download, Upload } from 'lucide-react';
+import { WalletProvider } from '../WalletContext';
+import { ethers } from "ethers";
+// import { useRouter } from 'next/router'; // Removed
+// import { CopyToClipboard } from 'react-copy-to-clipboard'; // Removed
 
 
 axios.defaults.baseURL = 'http://localhost:8000'; // Replace with your FastAPI backend URL
@@ -138,6 +142,52 @@ const ContractBuilderPage = () => {
     const [generatedCode, setGeneratedCode] = useState("");
     const [showCodeModal, setShowCodeModal] = useState(false);
     const [selectedTemplate, setSelectedTemplate] = useState(null);
+    // const router = useRouter(); // Removed
+
+    useEffect(() => {
+        const savedCode = localStorage.getItem('generatedSolidityCode');
+        if (savedCode) {
+            setGeneratedCode(savedCode);
+        }
+    }, []);
+
+    const handleDeploy = async () => {
+        if (!contractCode.trim()) {
+            alert("Please paste the contract code to deploy.");
+            return;
+        }
+
+        setDeploying(true);
+
+        try {
+            const provider = new ethers.providers.Web3Provider(window.ethereum);
+            const signer = provider.getSigner();
+
+            // Compile or use precompiled contract ABI and Bytecode
+            const contractABI = JSON.parse(contractCode).abi; // Replace with actual ABI
+            const contractBytecode = JSON.parse(contractCode).bytecode; // Replace with actual Bytecode
+
+            const ContractFactory = new ethers.ContractFactory(contractABI, contractBytecode, signer);
+            const contract = await ContractFactory.deploy();
+            await contract.deployed();
+
+            alert(`Contract deployed at: ${contract.address}`);
+
+            // Save contract address for future use
+            localStorage.setItem("deployedContract", JSON.stringify({
+                address: contract.address,
+                timestamp: new Date().toISOString(),
+            }));
+
+            setDeployModalOpen(false);
+        } catch (error) {
+            console.error("Deployment error:", error);
+            alert("Failed to deploy contract. Check the console for details.");
+        } finally {
+            setDeploying(false);
+        }
+    };
+
 
     const onConnect = useCallback(
         (params) => {
@@ -246,6 +296,7 @@ const ContractBuilderPage = () => {
         })
             .then((response) => {
                 setGeneratedCode(response.data.solidity_code); // Assuming response contains the generated code
+                localStorage.setItem('generatedSolidityCode', response.data.solidity_code);
                 setShowModal(false);
             })
             .catch((error) => {
@@ -427,18 +478,35 @@ const ContractBuilderPage = () => {
                                     {generatedCode}
                                 </ReactMarkdown>
 
-
-                                <div className="flex justify-end mt-4">
+                                <div className="flex justify-between items-center mt-4">
                                     <button
                                         onClick={() => setShowCodeModal(false)}
-                                        className="bg-blue-500 text-white px-4 py-2 "
+                                        className="bg-gray-500 text-white px-4 py-2 rounded"
                                     >
                                         Close
                                     </button>
+                                    <div className="flex space-x-2">
+                                        <button
+                                            onClick={() => {
+                                                navigator.clipboard.writeText(generatedCode);
+                                                alert('Code copied to clipboard');
+                                            }}
+                                            className="bg-blue-500 text-white px-4 py-2 rounded"
+                                        >
+                                            Copy Code
+                                        </button>
+                                        <a
+                                            href="/deploy"
+                                            className="bg-green-500 text-white px-4 py-2 rounded inline-block"
+                                        >
+                                            Deploy
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     )}
+
 
                     <div className="flex-1 bg-gray-100">
                         <ReactFlow
