@@ -27,7 +27,7 @@
 ## Tech Stack  
 
 ### Frontend  
-- **Next.js**: For building a responsive and modern UI.  
+- **React.js**: For building a responsive and modern UI.  
 - **Tailwind CSS**: For clean, professional styling.  
 
 ### Backend  
