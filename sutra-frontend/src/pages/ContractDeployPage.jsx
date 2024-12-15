@@ -8,7 +8,7 @@ const ContractDeployPage = () => {
     const [compiledData, setCompiledData] = useState(null);
     const [deployStatus, setDeployStatus] = useState(null);
     const [deployedAddress, setDeployedAddress] = useState('');
-    const [selectedNetwork, setSelectedNetwork] = useState('mantle'); // New state for network selection
+    const [selectedNetwork, setSelectedNetwork] = useState('mantle');
     const textareaRef = useRef(null);
 
     const handleCodeChange = (e) => {
@@ -31,7 +31,7 @@ const ContractDeployPage = () => {
     const handleCompile = async () => {
         setCompileStatus('loading');
         try {
-            const response = await fetch('http://localhost:8000/sol/compile', {
+            const response = await fetch('http://localhost:8000/sol/compile', { // Make sure this URL matches your backend
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ solidity_code: solidityCode }),
@@ -90,6 +90,7 @@ const ContractDeployPage = () => {
         }
     };
 
+
     const resetProcess = () => {
         setSolidityCode('');
         setCurrentStep('paste');
@@ -130,10 +131,7 @@ const ContractDeployPage = () => {
                             spellCheck="false"
                         />
                         <button
-                            onClick={() => {
-                                handleCompile();
-                                setCurrentStep('compile');
-                            }}
+                            onClick={() => setCurrentStep('compile')}
                             disabled={!solidityCode.trim()}
                             className={`mt-4 px-4 py-2 rounded-md ${solidityCode.trim() ? 'bg-blue-500 text-white hover:bg-blue-600' : 'bg-gray-700 text-gray-500 cursor-not-allowed'
                                 }`}
@@ -142,6 +140,7 @@ const ContractDeployPage = () => {
                         </button>
                     </div>
                 )}
+
 
                 {currentStep === 'compile' && (
                     <div className="bg-gray-900 shadow-md rounded-lg p-6">
@@ -155,9 +154,19 @@ const ContractDeployPage = () => {
                             <div className="text-red-400">Error during compilation. Check your code.</div>
                         )}
                         <button
+                            onClick={handleCompile}
+                            disabled={compileStatus === 'loading'}
+                            className={`mt-4 px-4 py-2 rounded-md ${compileStatus === 'loading'
+                                ? 'bg-gray-700 text-gray-500 cursor-not-allowed'
+                                : 'bg-blue-500 text-white hover:bg-blue-600'
+                                }`}
+                        >
+                            {compileStatus === 'loading' ? 'Compiling...' : 'Compile Contract'}
+                        </button>
+                        <button
                             onClick={() => setCurrentStep('deploy')}
                             disabled={compileStatus !== 'success'}
-                            className={`mt-4 px-4 py-2 rounded-md ${compileStatus === 'success' ? 'bg-blue-500 text-white hover:bg-blue-600' : 'bg-gray-700 text-gray-500 cursor-not-allowed'
+                            className={`ml-4 mt-4 px-4 py-2 rounded-md ${compileStatus === 'success' ? 'bg-blue-500 text-white hover:bg-blue-600' : 'bg-gray-700 text-gray-500 cursor-not-allowed'
                                 }`}
                         >
                             Proceed to Deploy
@@ -199,15 +208,17 @@ const ContractDeployPage = () => {
                         )}
                         <button
                             onClick={handleDeploy}
-                            disabled={!compiledData}
-                            className={`mt-4 px-4 py-2 rounded-md ${compiledData ? 'bg-blue-500 text-white hover:bg-blue-600' : 'bg-gray-700 text-gray-500 cursor-not-allowed'
+                            disabled={!compiledData || deployStatus === 'loading'}
+                            className={`mt-4 px-4 py-2 rounded-md ${!compiledData || deployStatus === 'loading'
+                                ? 'bg-gray-700 text-gray-500 cursor-not-allowed'
+                                : 'bg-blue-500 text-white hover:bg-blue-600'
                                 }`}
                         >
-                            Deploy Contract
+                            {deployStatus === 'loading' ? 'Deploying...' : 'Deploy Contract'}
                         </button>
                         <button
                             onClick={resetProcess}
-                            className="ml-4 px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-gray-600"
+                            className="ml-4 mt-4 px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-gray-600"
                         >
                             Start Over
                         </button>
@@ -219,3 +230,4 @@ const ContractDeployPage = () => {
 };
 
 export default ContractDeployPage;
+
