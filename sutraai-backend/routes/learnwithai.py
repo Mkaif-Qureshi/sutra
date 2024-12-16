@@ -6,7 +6,7 @@ import json
 from pydantic import BaseModel
 
 # Configure the Gemini API key
-genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))  # Replace with your actual API key
+genai.configure(api_key=os.environ.get("GEMINI_API_KEY")) 
 
 # Configure the Groq API key
 groq_client = Groq(api_key=os.environ.get("GROQ_API_KEY"))

@@ -31,7 +31,7 @@ const Home = () => {
                     </h2>
                     <div className="grid md:grid-cols-3 gap-12">
                         {/* Feature Card 1 */}
-                        <div className="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition transform hover:scale-105">
+                        <div className="bg-gray-100 p-6 rounded-ss-lg rounded-ee-lg shadow-md hover:shadow-md transition transform hover:scale-105">
                             <div className="flex items-center mb-4">
                                 <FaCog className="h-8 w-8 text-yellow-500 mr-4" />
                                 <h3 className="text-2xl font-semibold text-gray-900">
@@ -43,7 +43,7 @@ const Home = () => {
                             </p>
                         </div>
                         {/* Feature Card 2 */}
-                        <div className="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition transform hover:scale-105">
+                        <div className="bg-gray-100 p-6 rounded-ss-lg rounded-ee-lg shadow-md hover:shadow-lg transition transform hover:scale-105">
                             <div className="flex items-center mb-4">
                                 <FaBolt className="h-8 w-8 text-yellow-500 mr-4" />
                                 <h3 className="text-2xl font-semibold text-gray-900">
@@ -55,7 +55,7 @@ const Home = () => {
                             </p>
                         </div>
                         {/* Feature Card 3 */}
-                        <div className="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition transform hover:scale-105">
+                        <div className="bg-gray-100 p-6 rounded-ss-lg rounded-ee-lg shadow-md hover:shadow-lg transition transform hover:scale-105">
                             <div className="flex items-center mb-4">
                                 <FaGlobe className="h-8 w-8 text-yellow-500 mr-4" />
                                 <h3 className="text-2xl font-semibold text-gray-900">
@@ -67,7 +67,7 @@ const Home = () => {
                             </p>
                         </div>
                         {/* Feature Card 4: Prebuilt Templates */}
-                        <div className="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition transform hover:scale-105">
+                        <div className="bg-gray-100 p-6 rounded-ss-lg rounded-ee-lg shadow-md hover:shadow-lg transition transform hover:scale-105">
                             <div className="flex items-center mb-4">
                                 <FaRegFileAlt className="h-8 w-8 text-yellow-500 mr-4" />
                                 <h3 className="text-2xl font-semibold text-gray-900">
@@ -79,7 +79,7 @@ const Home = () => {
                             </p>
                         </div>
                         {/* Feature Card 5: Blockchain Resources */}
-                        <div className="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition transform hover:scale-105">
+                        <div className="bg-gray-100 p-6 rounded-ss-lg rounded-ee-lg shadow-md hover:shadow-lg transition transform hover:scale-105">
                             <div className="flex items-center mb-4">
                                 <FaBook className="h-8 w-8 text-yellow-500 mr-4" />
                                 <h3 className="text-2xl font-semibold text-gray-900">
@@ -91,7 +91,7 @@ const Home = () => {
                             </p>
                         </div>
                         {/* Feature Card 6: Learning with AI (Mindmaps) */}
-                        <div className="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition transform hover:scale-105">
+                        <div className="bg-gray-100 p-6 rounded-ss-lg rounded-ee-lg shadow-md hover:shadow-lg transition transform hover:scale-105">
                             <div className="flex items-center mb-4">
                                 <FaBrain className="h-8 w-8 text-yellow-500 mr-4" />
                                 <h3 className="text-2xl font-semibold text-gray-900">
@@ -120,7 +120,7 @@ const Home = () => {
                                 and scalability for creating decentralized applications.
                             </p>
                             <Link to="/templates">
-                                <button className="p-4 bg-gray-700 text-white font-medium  hover:bg-gray-800 transition">
+                                <button className="p-4 bg-gray-700 text-white font-medium  hover:bg-gray-800 transition rounded-ss-lg rounded-ee-lg">
                                     Explore Templates
                                 </button>
                             </Link>

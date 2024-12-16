@@ -19,7 +19,7 @@ const TemplatePage = () => {
                     {templateData.map((template, index) => (
                         <div
                             key={index}
-                            className="bg-white shadow-lg rounded-md overflow-hidden cursor-pointer hover:shadow-2xl transition-all duration-300"
+                            className="bg-white shadow-lg rounded-ss-lg rounded-ee-lg overflow-hidden cursor-pointer hover:shadow-2xl transition-all duration-300"
                             onClick={() => handleCardClick(template.template_name)}
                         >
                             <div className="relative">

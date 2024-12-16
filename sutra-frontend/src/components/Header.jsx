@@ -70,7 +70,7 @@ const Header = () => {
                     ) : (
                         <button
                             onClick={connectWallet}
-                            className="px-6 py-2 bg-gradient-to-r from-teal-400 to-blue-500 text-white rounded-lg font-semibold shadow-md hover:from-teal-500 hover:to-blue-600 transition-transform transform hover:scale-105 "
+                            className="px-6 py-2 bg-gradient-to-r from-teal-400 to-blue-500 text-white rounded-ss-lg rounded-ee-lg font-semibold shadow-md hover:from-teal-500 hover:to-blue-600 transition-transform transform hover:scale-105 "
                         >
                             Connect Wallet
                         </button>
@@ -82,4 +82,3 @@ const Header = () => {
 };
 
 export default Header;
-    

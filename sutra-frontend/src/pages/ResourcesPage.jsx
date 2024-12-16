@@ -22,7 +22,7 @@ export default function ResourcesPage() {
     }
 
     const renderResourceCard = (resource) => (
-        <div key={resource.name || resource.title} className="bg-white shadow-lg rounded-lg p-6 mb-4 transition-all duration-300 hover:shadow-xl border-2 border-black">
+        <div key={resource.name || resource.title} className="bg-white shadow-lg rounded-ss-lg rounded-ee-lg p-6 mb-4 transition-all duration-300 hover:shadow-xl border-2 border-black">
             <h3 className="text-xl font-semibold mb-3 text-gray-800">{resource.name || resource.title}</h3>
             {resource.description && (
                 <p className="text-gray-600 mb-4">{resource.description}</p>

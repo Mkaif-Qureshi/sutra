@@ -350,19 +350,19 @@ const ContractBuilderPage = () => {
                     <div className="w-1/4 bg-white shadow-md p-4 overflow-y-auto">
                         <h2 className="text-lg font-semibold text-gray-800 mb-4">Component Palette</h2>
                         <div className="mb-4 flex justify-start flex-wrap gap-2">
-                            <button onClick={onSave} className="bg-blue-500 text-white px-2 py-1  text-sm">Save</button>
-                            <button onClick={onRestore} className="bg-green-500 text-white px-2 py-1  text-sm">Restore</button>
-                            <button onClick={onClear} className="bg-red-500 text-white px-2 py-1  text-sm">Clear</button>
-                            <button onClick={handleDownloadTemplate} className="bg-purple-500 text-white px-2 py-1  text-sm flex items-center">
+                            <button onClick={onSave} className="bg-blue-500 text-white px-2 py-1  text-sm ">Save</button>
+                            <button onClick={onRestore} className="bg-green-500 text-white px-2 py-1  text-sm ">Restore</button>
+                            <button onClick={onClear} className="bg-red-500 text-white px-2 py-1  text-sm ">Clear</button>
+                            <button onClick={handleDownloadTemplate} className="bg-purple-500 text-white px-2 py-1  text-sm flex items-center ">
                                 <Download size={16} className="mr-1" /> Download
                             </button>
-                            <label className="bg-orange-500 text-white px-2 py-1  text-sm flex items-center cursor-pointer">
+                            <label className="bg-orange-500 text-white px-2 py-1  text-sm flex items-center cursor-pointer ">
                                 <Upload size={16} className="mr-1" /> Upload
                                 <input type="file" onChange={handleUploadTemplate} className="hidden" accept=".json" />
                             </label>
                             <button
                                 onClick={() => setShowModal(true)}
-                                className="bg-blue-500 text-white px-2 py-1  text-sm"
+                                className="bg-blue-500 text-white px-2 py-1  text-sm "
                             >
                                 Generate
                             </button>
