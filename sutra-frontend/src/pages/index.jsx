@@ -1,5 +1,7 @@
 import React from "react";
-import { FaCog, FaBolt, FaGlobe } from 'react-icons/fa'; // Importing icons from react-icons
+import { FaCog, FaBolt, FaGlobe, FaRegFileAlt, FaBook, FaBrain } from "react-icons/fa";
+
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -13,9 +15,11 @@ const Home = () => {
                     <p className="text-xl text-gray-200 leading-relaxed mb-8">
                         Sutra (सूत्र) - [noun]: A new formula for contract code generation, simplifies the creation of intelligent smart contracts with precision and clarity.
                     </p>
-                    <button className="px-8 py-3 text-gray-900 text-lg font-semibold rounded-ss-lg rounded-ee-lg shadow  transition transform hover:scale-105 hero-background">
-                        Start Building Today
-                    </button>
+                    <Link to="/buildcontract">
+                        <button className="px-8 py-3 text-gray-900 text-lg font-semibold rounded-ss-lg rounded-ee-lg shadow transition transform hover:scale-105 hero-background">
+                            Start Building Today
+                        </button>
+                    </Link>
                 </div>
             </section>
 
@@ -62,9 +66,46 @@ const Home = () => {
                                 Deploy your contracts on multiple networks with a single click, saving time and effort.
                             </p>
                         </div>
+                        {/* Feature Card 4: Prebuilt Templates */}
+                        <div className="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition transform hover:scale-105">
+                            <div className="flex items-center mb-4">
+                                <FaRegFileAlt className="h-8 w-8 text-yellow-500 mr-4" />
+                                <h3 className="text-2xl font-semibold text-gray-900">
+                                    Prebuilt Templates
+                                </h3>
+                            </div>
+                            <p className="text-gray-600">
+                                Start your journey with a library of prebuilt templates tailored for various use cases.
+                            </p>
+                        </div>
+                        {/* Feature Card 5: Blockchain Resources */}
+                        <div className="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition transform hover:scale-105">
+                            <div className="flex items-center mb-4">
+                                <FaBook className="h-8 w-8 text-yellow-500 mr-4" />
+                                <h3 className="text-2xl font-semibold text-gray-900">
+                                    Blockchain Resources
+                                </h3>
+                            </div>
+                            <p className="text-gray-600">
+                                Access curated resources to deepen your understanding of blockchain technology.
+                            </p>
+                        </div>
+                        {/* Feature Card 6: Learning with AI (Mindmaps) */}
+                        <div className="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition transform hover:scale-105">
+                            <div className="flex items-center mb-4">
+                                <FaBrain className="h-8 w-8 text-yellow-500 mr-4" />
+                                <h3 className="text-2xl font-semibold text-gray-900">
+                                    Learning with AI (Mindmaps)
+                                </h3>
+                            </div>
+                            <p className="text-gray-600">
+                                Visualize and explore blockchain concepts with interactive AI-generated mindmaps.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
+
 
             {/* Why Sutra Section */}
             <section className="bg-gray-50 py-20 border-t border-b border-gray-300">
@@ -78,9 +119,12 @@ const Home = () => {
                                 Trusted by developers and businesses alike, Sutra provides unparalleled speed, security,
                                 and scalability for creating decentralized applications.
                             </p>
-                            <button className="p-4 bg-gray-700 text-white font-medium  hover:bg-gray-800 transition">
-                                Learn More
-                            </button>
+                            <Link to="/templates">
+                                <button className="p-4 bg-gray-700 text-white font-medium  hover:bg-gray-800 transition">
+                                    Explore Templates
+                                </button>
+                            </Link>
+
                         </div>
                         <div className="bg-gray-200 h-64 w-full rounded-lg shadow-lg flex items-center justify-center">
                             {/* Video element */}

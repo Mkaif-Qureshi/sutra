@@ -29,7 +29,8 @@
     "react-markdown": "^9.0.1",
     "react-router-dom": "^7.0.2",
     "react-tsparticles": "^2.12.2",
-    "reactflow": "^11.11.4"
+    "reactflow": "^11.11.4",
+    "typeface-jetbrains-mono": "^2.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
